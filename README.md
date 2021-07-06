@@ -24,9 +24,10 @@ The framework has following features
 8.	Tests run in headless mode
 
 **The Project contains:**
-•	1 feature (feature file)
-1.	Feature: Validate the OneMap site
-•	6 Scenarios
+1 feature (feature file)
+      1.	Feature: Validate the OneMap site
+
+6 Scenarios
 1.	Scenario: Validate Different options in Home Page
 2.	Scenario: Validate Covid Test Providers Option
 3.	Scenario: Validate Nearby Park Option
