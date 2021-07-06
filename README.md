@@ -1,5 +1,7 @@
 **Cucumber-BDD-Automation-Framework**
+
 **BDD Maven based framework for automation using Selenium Cucumber and TestNg**
+
 **Pre-requisites**
 1.	Java
 2.	Maven
@@ -9,6 +11,7 @@ Eclipse Plugins
 1.	Maven
 2.	Cucumber
 3.	TestNg
+
 **This framework contains Automation Test Scenarios for OneMap Website, containing:**
 The framework has following features
 1.	POM Approach to Project Structure
@@ -31,8 +34,7 @@ The framework has following features
 5.	Scenario: Validate Different options in More Menu
 6.	Scenario: Validate Happy Smiley Option
 
-**
-Directory structure:**
+**Directory structure:**
 
 ![image](https://user-images.githubusercontent.com/86979987/124584849-55ad7080-de72-11eb-9c52-a8b0357526f5.png)
 
