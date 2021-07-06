@@ -1,0 +1,916 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-07-06T07:22:47.008Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1527841300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.initializeTest()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Validate Different options in Home Page",
+        "description": "",
+        "id": "validate-the-onemap-site;validate-different-options-in-home-page",
+        "after": [
+          {
+            "result": {
+              "duration": 1001200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.endTest(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 36005400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.AfterSteps()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5242266900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on HomePage of URL \"https://www.onemap.gov.sg\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.onemap.gov.sg",
+                  "offset": 28
+                }
+              ],
+              "location": "stepDefs.HomePageStepDef.user_is_on_HomePage_of_URL_oneMap(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 42003200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Validate that home page heading is displayed",
+            "match": {
+              "location": "stepDefs.HomePageStepDef.validate_that_home_page_heading_is_displayed()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 20021000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Validate that searchbox is enabled",
+            "match": {
+              "location": "stepDefs.HomePageStepDef.validate_that_searchbox_is_enabled()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 19013800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Validate that Vaccination Centres icon is enabled",
+            "match": {
+              "location": "stepDefs.HomePageStepDef.validate_that_Vaccination_Centres_icon_is_enabled()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 19967400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Validate that Covid Test Provider icon is enabled",
+            "match": {
+              "location": "stepDefs.HomePageStepDef.validate_that_Covid_Test_Provider_icon_is_enabled()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 18964700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Validate that Nearby Parks icon is enabled",
+            "match": {
+              "location": "stepDefs.HomePageStepDef.validate_that_Nearby_Parks_icon_is_enabled()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 19998900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Validate that Essential Amenities icon is enabled",
+            "match": {
+              "location": "stepDefs.HomePageStepDef.validate_that_Essential_Amenities_icon_is_enabled()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 17999600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Validate that School Query icon is enabled",
+            "match": {
+              "location": "stepDefs.HomePageStepDef.validate_that_School_Query_icon_is_enabled()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 18040700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Validate that More Menu icon is enabled",
+            "match": {
+              "location": "stepDefs.HomePageStepDef.validate_that_More_Menu_icon_is_enabled()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 19000900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Validate that notification icon is enabled",
+            "match": {
+              "location": "stepDefs.HomePageStepDef.validate_that_notification_icon_is_enabled()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 17999600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Validate that Map Tools icon is enabled",
+            "match": {
+              "location": "stepDefs.HomePageStepDef.validate_that_Map_Tools_icon_is_enabled()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 17207500,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Validate that toggle icon is enabled",
+            "match": {
+              "location": "stepDefs.HomePageStepDef.validate_that_toggle_icon_is_enabled()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-06T07:22:54.136Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1076813200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.initializeTest()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Validate Covid Test Providers Option",
+        "description": "",
+        "id": "validate-the-onemap-site;validate-covid-test-providers-option",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.endTest(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 57927700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.AfterSteps()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1700984600,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User is on HomePage of URL \"https://www.onemap.gov.sg\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.onemap.gov.sg",
+                  "offset": 28
+                }
+              ],
+              "location": "stepDefs.HomePageStepDef.user_is_on_HomePage_of_URL_oneMap(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 66951200,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User can click Covid Test Providers option",
+            "match": {
+              "location": "stepDefs.CovidTestProvidersStepDef.User_can_click_Covid_Test_Providers_option()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 137999800,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Validate that Covid Test Providers opens",
+            "match": {
+              "location": "stepDefs.CovidTestProvidersStepDef.validate_that_Covid_Test_Providers_opens()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5354601000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User successfully search \"102 THOMSON RIDGE THOMSON RIDGE SINGAPORE 574684\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "102 THOMSON RIDGE THOMSON RIDGE SINGAPORE 574684",
+                  "offset": 26
+                }
+              ],
+              "location": "stepDefs.CovidTestProvidersStepDef.user_successfully_search_text(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 65002100,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User can click on list of covid swab providers link",
+            "match": {
+              "location": "stepDefs.CovidTestProvidersStepDef.user_can_click_on_list_of_covid_swab_providers_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2098154700,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "A seperate window of moh opens",
+            "match": {
+              "location": "stepDefs.CovidTestProvidersStepDef.a_seperate_window_of_moh_opens()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9252106500,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Validate no link is broken",
+            "match": {
+              "location": "stepDefs.CovidTestProvidersStepDef.validate_no_link_is_broken()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-06T07:23:13.961Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1080714200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.initializeTest()"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "Validate Nearby Park Option",
+        "description": "",
+        "id": "validate-the-onemap-site;validate-nearby-park-option",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.endTest(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 57683600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.AfterSteps()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1991749100,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User is on HomePage of URL \"https://www.onemap.gov.sg\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.onemap.gov.sg",
+                  "offset": 28
+                }
+              ],
+              "location": "stepDefs.HomePageStepDef.user_is_on_HomePage_of_URL_oneMap(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 50348800,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User can click Nearby Park option",
+            "match": {
+              "location": "stepDefs.NearbyParkStepDefs.user_can_click_Nearby_Park_option()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 200395600,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User click on the OK button",
+            "match": {
+              "location": "stepDefs.NearbyParkStepDefs.user_click_on_the_OK_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 46999900,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Validate that Nearby Park opens",
+            "match": {
+              "location": "stepDefs.NearbyParkStepDefs.validate_that_Nearby_Park_opens()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3356485900,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Validate that User successfully download the KML document",
+            "match": {
+              "location": "stepDefs.NearbyParkStepDefs.validate_that_User_successfully_download_the_KML_document()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 45000600,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "User click on Cancel button",
+            "match": {
+              "location": "stepDefs.NearbyParkStepDefs.user_click_on_Cancel_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 214428900,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "User click on the Information icon",
+            "match": {
+              "location": "stepDefs.NearbyParkStepDefs.user_click_on_the_Information_icon()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 584738400,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "Validate that Information window is opening",
+            "match": {
+              "location": "stepDefs.NearbyParkStepDefs.validate_that_Information_window_is_opening()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 57001900,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "User click on the OK button",
+            "match": {
+              "location": "stepDefs.NearbyParkStepDefs.user_click_on_the_OK_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-06T07:23:21.658Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1095016000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.initializeTest()"
+            }
+          }
+        ],
+        "line": 37,
+        "name": "Validate Essential Amenities Option",
+        "description": "",
+        "id": "validate-the-onemap-site;validate-essential-amenities-option",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.endTest(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 49001100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.AfterSteps()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1916077300,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "User is on HomePage of URL \"https://www.onemap.gov.sg\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.onemap.gov.sg",
+                  "offset": 28
+                }
+              ],
+              "location": "stepDefs.HomePageStepDef.user_is_on_HomePage_of_URL_oneMap(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 284007100,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "User can click Essential Amenities option",
+            "match": {
+              "location": "stepDefs.EssentialAmenitiesStepDef.User_can_click_Essential_Amenities_option()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 203996400,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "User click on the OK button",
+            "match": {
+              "location": "stepDefs.NearbyParkStepDefs.user_click_on_the_OK_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 57040500,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "Validate that Essential Amenities opens",
+            "match": {
+              "location": "stepDefs.EssentialAmenitiesStepDef.validate_that_Essential_Amenities_opens()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 184957900,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "User clicks on the Retail Pharmacy Locations Option",
+            "match": {
+              "location": "stepDefs.EssentialAmenitiesStepDef.user_clicks_on_the_Retail_Pharmacy_Locations_Option()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 29038000,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "Validate that cancel button is enabled",
+            "match": {
+              "location": "stepDefs.EssentialAmenitiesStepDef.validate_that_cancel_button_is_enabled()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 53982600,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "User click on Yes button",
+            "match": {
+              "location": "stepDefs.EssentialAmenitiesStepDef.user_click_on_Yes_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3004327400,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "Validate that Retail Pharmacy Locations present in Map",
+            "match": {
+              "location": "stepDefs.EssentialAmenitiesStepDef.validate_that_Retail_Pharmacy_Locations_present_in_Map()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-06T07:23:28.549Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1138346300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.initializeTest()"
+            }
+          }
+        ],
+        "line": 47,
+        "name": "Validate Different options in More Menu",
+        "description": "",
+        "id": "validate-the-onemap-site;validate-different-options-in-more-menu",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.endTest(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 29982000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.AfterSteps()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1861003900,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "User is on HomePage of URL \"https://www.onemap.gov.sg\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.onemap.gov.sg",
+                  "offset": 28
+                }
+              ],
+              "location": "stepDefs.HomePageStepDef.user_is_on_HomePage_of_URL_oneMap(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 24000000,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "Validate that More Menu icon is enabled",
+            "match": {
+              "location": "stepDefs.HomePageStepDef.validate_that_More_Menu_icon_is_enabled()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 94993700,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "Validate that user can click phpcDisplay in moreMenu options",
+            "match": {
+              "location": "stepDefs.MoreMenuStepDef.validate_that_user_can_click_phpcDisplay_in_moreMenu_options()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 459008400,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "Validate that all the options in phpcDisplay are present",
+            "match": {
+              "location": "stepDefs.MoreMenuStepDef.validate_that_all_the_options_in_phpcDisplay_are_present()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 70997000,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "Validate that user can click LandQuery in moreMenu options",
+            "match": {
+              "location": "stepDefs.MoreMenuStepDef.validate_that_user_can_click_LandQuery_in_moreMenu_options()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 302001900,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "Validate that query and tenure options in phpcDisplay are present",
+            "match": {
+              "location": "stepDefs.MoreMenuStepDef.validate_that_query_and_tenure_options_in_LandQuery_are_present()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 60025100,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "Validate that user can click DroneQuery in moreMenu options",
+            "match": {
+              "location": "stepDefs.MoreMenuStepDef.validate_that_user_can_click_DroneQuery_in_moreMenu_options()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 254433900,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "Validate that all options in DroneQuery are present",
+            "match": {
+              "location": "stepDefs.MoreMenuStepDef.validate_that_all_options_in_DroneQuery_are_present()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 984994700,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "Validate that user can click About One Map in moreMenu options",
+            "match": {
+              "location": "stepDefs.MoreMenuStepDef.validate_that_user_can_click_About_One_Map_in_moreMenu_options()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 178992200,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "Validate that email and homepage link options in About One Map are present",
+            "match": {
+              "location": "stepDefs.MoreMenuStepDef.validate_that_email_and_homepage_link_options_in_DroneQuery_are_present()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 64002000,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "Validate that user can click Help in moreMenu options",
+            "match": {
+              "location": "stepDefs.MoreMenuStepDef.validate_that_user_can_click_Help_in_moreMenu_options()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 312996800,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "Validate that all options in Help are present",
+            "match": {
+              "location": "stepDefs.MoreMenuStepDef.validate_that_all_the_options_in_Help_are_present()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-06T07:23:34.399Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1138256700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.initializeTest()"
+            }
+          }
+        ],
+        "line": 61,
+        "name": "Validate Happy Smiley Option",
+        "description": "",
+        "id": "validate-the-onemap-site;validate-happy-smiley-option",
+        "after": [
+          {
+            "result": {
+              "duration": 222997500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.endTest(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 86967200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.AfterSteps()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1644715600,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "User is on HomePage of URL \"https://www.onemap.gov.sg\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.onemap.gov.sg",
+                  "offset": 28
+                }
+              ],
+              "location": "stepDefs.HomePageStepDef.user_is_on_HomePage_of_URL_oneMap(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8011500500,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "User goes to Happy Smiley in homepage",
+            "match": {
+              "location": "stepDefs.HappySmileyStepDef.user_goes_to_Happy_Smiley_in_homepage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "FindFailed: src/test/resources/Images/HelpUsImproveImage.jpg not loaded\n  Line 2284, in file Region.java\n\r\n\tat org.sikuli.script.Region.wait(Region.java:2284)\r\n\tat org.sikuli.script.Region.wait(Region.java:2302)\r\n\tat org.sikuli.script.Region.getLocationFromTarget(Region.java:3329)\r\n\tat org.sikuli.script.Region.click(Region.java:3982)\r\n\tat org.sikuli.script.Region.click(Region.java:3958)\r\n\tat pageObjects.HappySmileyPageObjects.provideRating(HappySmileyPageObjects.java:33)\r\n\tat stepDefs.HappySmileyStepDef.user_gives_the_rating(HappySmileyStepDef.java:22)\r\n\tat ✽.User gives the rating(file:///C:/Users/pchatterjee/eclipse-workspace/OneMap/src/test/resources/FeatureFiles/OneMap.feature:64)\r\n",
+              "duration": 3003273400,
+              "status": "failed"
+            },
+            "line": 64,
+            "name": "User gives the rating",
+            "match": {
+              "location": "stepDefs.HappySmileyStepDef.user_gives_the_rating()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Validate the OneMap site",
+    "description": "",
+    "id": "validate-the-onemap-site",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/FeatureFiles/OneMap.feature",
+    "tags": []
+  }
+]

@@ -1,0 +1,639 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title></title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@c43b89d03a7c43dae8bb8f0f078bad1997af6b3b/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.rawgit.com/extent-framework/extent-github-cdn/7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa bdd-report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary"></span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Jul 6, 2021 12:52:46 PM</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('exception-view')">
+<a id="nav-exception" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bug"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="fail" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Validate the OneMap site</p>
+            <p class="text-sm">
+              <span>12:52:47 PM</span> / <span>31:01:377</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Validate the OneMap site</h5>
+<span class='badge badge-success'>07.06.2021 12:52:47</span>
+<span class='badge badge-danger'>07.06.2021 12:53:48</span>
+<span class='badge badge-default'>31:01:377</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="2"><span class="badge log pass-bg mr-2">Pass</span>Validate Different options in Home Page</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepDefs.HomePageStepDef.user_is_on_HomePage_of_URL_oneMap(java.lang.String)">
+                <span>Given User is on HomePage of URL "https://www.onemap.gov.sg"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefs.HomePageStepDef.validate_that_home_page_heading_is_displayed()">
+                <span>When Validate that home page heading is displayed</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefs.HomePageStepDef.validate_that_searchbox_is_enabled()">
+                <span>Then Validate that searchbox is enabled</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefs.HomePageStepDef.validate_that_Vaccination_Centres_icon_is_enabled()">
+                <span>And Validate that Vaccination Centres icon is enabled</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefs.HomePageStepDef.validate_that_Covid_Test_Provider_icon_is_enabled()">
+                <span>Then Validate that Covid Test Provider icon is enabled</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefs.HomePageStepDef.validate_that_Nearby_Parks_icon_is_enabled()">
+                <span>And Validate that Nearby Parks icon is enabled</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefs.HomePageStepDef.validate_that_Essential_Amenities_icon_is_enabled()">
+                <span>Then Validate that Essential Amenities icon is enabled</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefs.HomePageStepDef.validate_that_School_Query_icon_is_enabled()">
+                <span>And Validate that School Query icon is enabled</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefs.HomePageStepDef.validate_that_More_Menu_icon_is_enabled()">
+                <span>Then Validate that More Menu icon is enabled</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefs.HomePageStepDef.validate_that_notification_icon_is_enabled()">
+                <span>And Validate that notification icon is enabled</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefs.HomePageStepDef.validate_that_Map_Tools_icon_is_enabled()">
+                <span>Then Validate that Map Tools icon is enabled</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefs.HomePageStepDef.validate_that_toggle_icon_is_enabled()">
+                <span>And Validate that toggle icon is enabled</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="18"><span class="badge log pass-bg mr-2">Pass</span>Validate Covid Test Providers Option</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepDefs.HomePageStepDef.user_is_on_HomePage_of_URL_oneMap(java.lang.String)">
+                <span>Given User is on HomePage of URL "https://www.onemap.gov.sg"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefs.CovidTestProvidersStepDef.User_can_click_Covid_Test_Providers_option()">
+                <span>When User can click Covid Test Providers option</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefs.CovidTestProvidersStepDef.validate_that_Covid_Test_Providers_opens()">
+                <span>Then Validate that Covid Test Providers opens</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefs.CovidTestProvidersStepDef.user_successfully_search_text(java.lang.String)">
+                <span>When User successfully search "102 THOMSON RIDGE THOMSON RIDGE SINGAPORE 574684"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefs.CovidTestProvidersStepDef.user_can_click_on_list_of_covid_swab_providers_link()">
+                <span>And User can click on list of covid swab providers link</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefs.CovidTestProvidersStepDef.a_seperate_window_of_moh_opens()">
+                <span>Then A seperate window of moh opens</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefs.CovidTestProvidersStepDef.validate_no_link_is_broken()">
+                <span>And Validate no link is broken</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="29"><span class="badge log pass-bg mr-2">Pass</span>Validate Nearby Park Option</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepDefs.HomePageStepDef.user_is_on_HomePage_of_URL_oneMap(java.lang.String)">
+                <span>Given User is on HomePage of URL "https://www.onemap.gov.sg"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefs.NearbyParkStepDefs.user_can_click_Nearby_Park_option()">
+                <span>When User can click Nearby Park option</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefs.NearbyParkStepDefs.user_click_on_the_OK_button()">
+                <span>And User click on the OK button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefs.NearbyParkStepDefs.validate_that_Nearby_Park_opens()">
+                <span>Then Validate that Nearby Park opens</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefs.NearbyParkStepDefs.validate_that_User_successfully_download_the_KML_document()">
+                <span>When Validate that User successfully download the KML document</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefs.NearbyParkStepDefs.user_click_on_Cancel_button()">
+                <span>And User click on Cancel button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefs.NearbyParkStepDefs.user_click_on_the_Information_icon()">
+                <span>Then User click on the Information icon</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefs.NearbyParkStepDefs.validate_that_Information_window_is_opening()">
+                <span>And Validate that Information window is opening</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefs.NearbyParkStepDefs.user_click_on_the_OK_button()">
+                <span>And User click on the OK button</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="42"><span class="badge log pass-bg mr-2">Pass</span>Validate Essential Amenities Option</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepDefs.HomePageStepDef.user_is_on_HomePage_of_URL_oneMap(java.lang.String)">
+                <span>Given User is on HomePage of URL "https://www.onemap.gov.sg"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefs.EssentialAmenitiesStepDef.User_can_click_Essential_Amenities_option()">
+                <span>When User can click Essential Amenities option</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefs.NearbyParkStepDefs.user_click_on_the_OK_button()">
+                <span>And User click on the OK button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefs.EssentialAmenitiesStepDef.validate_that_Essential_Amenities_opens()">
+                <span>Then Validate that Essential Amenities opens</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefs.EssentialAmenitiesStepDef.user_clicks_on_the_Retail_Pharmacy_Locations_Option()">
+                <span>When User clicks on the Retail Pharmacy Locations Option</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefs.EssentialAmenitiesStepDef.validate_that_cancel_button_is_enabled()">
+                <span>And Validate that cancel button is enabled</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefs.EssentialAmenitiesStepDef.user_click_on_Yes_button()">
+                <span>Then User click on Yes button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefs.EssentialAmenitiesStepDef.validate_that_Retail_Pharmacy_Locations_present_in_Map()">
+                <span>And Validate that Retail Pharmacy Locations present in Map</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="54"><span class="badge log pass-bg mr-2">Pass</span>Validate Different options in More Menu</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepDefs.HomePageStepDef.user_is_on_HomePage_of_URL_oneMap(java.lang.String)">
+                <span>Given User is on HomePage of URL "https://www.onemap.gov.sg"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefs.HomePageStepDef.validate_that_More_Menu_icon_is_enabled()">
+                <span>When Validate that More Menu icon is enabled</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefs.MoreMenuStepDef.validate_that_user_can_click_phpcDisplay_in_moreMenu_options()">
+                <span>Then Validate that user can click phpcDisplay in moreMenu options</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefs.MoreMenuStepDef.validate_that_all_the_options_in_phpcDisplay_are_present()">
+                <span>And Validate that all the options in phpcDisplay are present</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefs.MoreMenuStepDef.validate_that_user_can_click_LandQuery_in_moreMenu_options()">
+                <span>Then Validate that user can click LandQuery in moreMenu options</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefs.MoreMenuStepDef.validate_that_query_and_tenure_options_in_LandQuery_are_present()">
+                <span>And Validate that query and tenure options in phpcDisplay are present</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefs.MoreMenuStepDef.validate_that_user_can_click_DroneQuery_in_moreMenu_options()">
+                <span>Then Validate that user can click DroneQuery in moreMenu options</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefs.MoreMenuStepDef.validate_that_all_options_in_DroneQuery_are_present()">
+                <span>And Validate that all options in DroneQuery are present</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefs.MoreMenuStepDef.validate_that_user_can_click_About_One_Map_in_moreMenu_options()">
+                <span>Then Validate that user can click About One Map in moreMenu options</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefs.MoreMenuStepDef.validate_that_email_and_homepage_link_options_in_DroneQuery_are_present()">
+                <span>And Validate that email and homepage link options in About One Map are present</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefs.MoreMenuStepDef.validate_that_user_can_click_Help_in_moreMenu_options()">
+                <span>Then Validate that user can click Help in moreMenu options</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefs.MoreMenuStepDef.validate_that_all_the_options_in_Help_are_present()">
+                <span>And Validate that all options in Help are present</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="70"><span class="badge log fail-bg mr-2">Fail</span>Validate Happy Smiley Option</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepDefs.HomePageStepDef.user_is_on_HomePage_of_URL_oneMap(java.lang.String)">
+                <span>Given User is on HomePage of URL "https://www.onemap.gov.sg"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefs.HappySmileyStepDef.user_goes_to_Happy_Smiley_in_homepage()">
+                <span>When User goes to Happy Smiley in homepage</span>
+      <div>
+      </div>
+              </div>
+              <div class="step fail-bg" title="stepDefs.HappySmileyStepDef.user_gives_the_rating()">
+                <span>Then User gives the rating</span>
+      <div>
+        <textarea disabled class="code-block">FindFailed: src/test/resources/Images/HelpUsImproveImage.jpg not loaded
+  Line 2284, in file Region.java
+
+	at org.sikuli.script.Region.wait(Region.java:2284)
+	at org.sikuli.script.Region.wait(Region.java:2302)
+	at org.sikuli.script.Region.getLocationFromTarget(Region.java:3329)
+	at org.sikuli.script.Region.click(Region.java:3982)
+	at org.sikuli.script.Region.click(Region.java:3958)
+	at pageObjects.HappySmileyPageObjects.provideRating(HappySmileyPageObjects.java:33)
+	at stepDefs.HappySmileyStepDef.user_gives_the_rating(HappySmileyStepDef.java:22)
+	at ?.User gives the rating(file:///C:/Users/pchatterjee/eclipse-workspace/OneMap/src/test/resources/FeatureFiles/OneMap.feature:64)
+</textarea>
+      
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="test-wrapper row view exception-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Exception</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">1</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">FindFailed</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>FindFailed</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:53:45 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='74'>Then User gives the rating</a>
+<div class="">
+<span class="badge badge-default">Validate the OneMap site.Validate Happy Smiley Option.Then User gives the rating</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Jul 6, 2021 12:52:46 PM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Jul 6, 2021 12:53:48 PM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Features Passed</p>
+<h3>0</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Features Failed</p>
+<h3>1</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Features</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='0%'>
+<b>0</b> features passed
+</small>
+</div>
+<div>
+<small data-tooltip='100%'><b>1</b> features failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Scenarios</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='child-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='83%'><b>5</b> scenarios passed</small></div>
+<div>
+<small data-tooltip='16%'><b>1</b> scenarios failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Steps</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='grandchild-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='98%'><b>50</b> steps passed</small></div>
+<div>
+<small data-tooltip='1%'><b>1</b> steps failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"Validate the OneMap site":61.377
+};
+</script>
+<div class="row">
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 0,
+failParent: 1,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 5,
+failChild: 1,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 50,
+failGrandChild: 1,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@14e9bb345ef7e2ed3a102f271d84e9f0267c88e7/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>
